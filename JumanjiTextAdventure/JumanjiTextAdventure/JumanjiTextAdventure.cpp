@@ -11,34 +11,37 @@ using std::string;
 
 int main()
 {
-	const int GOLD_PIECES = 900;
-	int adventurers, killed, survivors;
+	const int GOLD_PIECES = 90000;
+	int Dragonslayers, killed, survivors;
 	string leader;
 
 	//get the information
-	cout << "Welcome to Lost Fortune\n\n";
+	cout << "Welcome to the legend of the Dragonslayer's\n\n";
 	cout << "Please enter the following for your personalized adventure\n";
 
 	cout << "Enter a number: ";
-	cin >> adventurers;
+	cin >> Dragonslayers;
 
 	cout << "Enter a number, smaller than the first: ";
 	cin >> killed;
 
-	survivors = adventurers - killed;
+	survivors = Dragonslayers - killed;
 
-	cout << "Enter your last name: ";
+	cout << "Enter your name: ";
 	cin >> leader;
 
 	//tell the story
-	cout << "\nA brave group of " << adventurers << " set out on a quest \n";
-	cout << "-- in search of the lost treasure of the Ancient Dwarves. \n";
-	cout << "The group was led by that legendary rogue, " << leader << ".\n";
+	cout << "\nA brave group of " << Dragonslayers << " set out on a quest \n";
+	cout << "-- in search of the lost treasure of the Ancient Dragons. \n";
+	cout << "The group was led by a infamous Knight, " << leader << ".\n";
 
-	cout << "\nAlong the way, a band of marauding ogres ambushed the party. \n";
+	cout << "\nAlong the way, a band of marauding Goblins ambushed the party. \n";
 	cout << "All fought bravely under the command of " << leader;
-	cout << ", and the ogres were defeated, but at a cost. \n";
-	cout << "Of the adventurers, " << killed << " were vanquished, ";
+	cout << ", and the Goblins were defeated. \n";
+	cout << "After a long and treacherous journey through the Black Mountains where the group of Ancient Dragons live. \n";
+	cout << "The group arrived upon a set of towering stone doors of a former dwarven fortress.\n";
+	cout << " \n";
+	cout << "Of the Dragonslayers, " << killed << " were vanquished, ";
 	cout << "leaving just " << survivors << " in the group.\n";
 
 	cout << "\nThe party was about to give up all hope. \n";
