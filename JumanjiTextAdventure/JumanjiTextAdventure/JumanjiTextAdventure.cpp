@@ -40,7 +40,11 @@ int main()
 	cout << ", and the Goblins were defeated. \n";
 	cout << "After a long and treacherous journey through the Black Mountains where the group of Ancient Dragons live. \n";
 	cout << "The group arrived upon a set of towering stone doors of a former dwarven fortress.\n";
-	cout << " \n";
+	cout << "The group pushing open large stone doors. Immediately shown to the party is endless piles of gold. \n";
+	cout << "Enough to last these Dragonslayers multiple life times. \n";
+	cout << "Venturing further into the golden chambers, the Dragonslayers strucken with both amazement and fear of what lies ahead of them. \n";
+	cout << "As they deeper and deeper into the depths of the dwarven fortress they are stopped by the thunderous sound of stomping around them. \n";
+	cout << "A group of three Ancient Dragons surronding the group of Dragonslayers \n";
 	cout << "Of the Dragonslayers, " << killed << " were vanquished, ";
 	cout << "leaving just " << survivors << " in the group.\n";
 
