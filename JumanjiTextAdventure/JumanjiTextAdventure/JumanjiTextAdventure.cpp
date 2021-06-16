@@ -70,7 +70,7 @@ int main()
 	cout << "\nThe party was about to give up all hope. \n";
 	cout << "But while laying the deceased to rest, ";
 	cout << "the group decided to take all of the gold they could carry back to the inn. \n";
-	cout << "Trying to figure out the what to do with the gold they carried back." << leader << "Decided to split the gold evenly among the survivors. \n"    ;
+	cout << "Trying to figure out the what to do with the gold they carried back." << leader << "Decided to split the gold evenly among the survivors. \n";
 	cout << "So the adventurers split " << GOLD_PIECES << " gold pieces.\n";
 	// Changed how the gold was split in the end rather than have it decided through %, I went with dividing the gold piecies by survivors.
 	cout << leader << " held on to the extra " << (GOLD_PIECES / survivors);
