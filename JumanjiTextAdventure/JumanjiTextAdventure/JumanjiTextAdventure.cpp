@@ -1,7 +1,7 @@
 /*
 
 Michael Durst
-6/15/2020
+6/20/2020
 
 	This is the "Jumanji" text adventure assignment that revolves around getting information inputed by the user
 	and displaying that information within in the story. Like how you input your name and your name will later be displayed
