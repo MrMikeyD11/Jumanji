@@ -1,3 +1,16 @@
+/*
+
+Michael Durst
+6/15/2020
+
+	This is the "Jumanji" text adventure assignment that revolves around getting information inputed by the user
+	and displaying that information within in the story. Like how you input your name and your name will later be displayed
+	in the text adventure. Through this assignment i added several of my own variables and added more story to the adventure.
+	Also, chganed how the extra gold pieces is caculated. 
+
+*/
+
+
 #include <iostream>
 #include <string>
 
